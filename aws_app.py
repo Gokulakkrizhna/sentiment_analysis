@@ -3,7 +3,7 @@ import os
 import subprocess
 
 # AWS S3 configuration
-s3_bucket = 'gokulakkrizhna'
+s3_bucket = 'please provide bucket name'
 
 # AWS credentials
 aws_access_key_id = 'please provide s3 access id'
