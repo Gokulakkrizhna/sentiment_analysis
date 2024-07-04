@@ -82,6 +82,7 @@ def streamlit():
                 "INSERT INTO cust_info (name, login) VALUES (%s, %s)",
                 (name, formatted_datetime)
             )
+            mydb.commit()
             st.success('Data migrated to RDS-Mysql server!', icon="✅")
 
     with tab2:
