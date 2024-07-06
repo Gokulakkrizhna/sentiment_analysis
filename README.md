@@ -96,7 +96,7 @@ tab1, tab2, tab3, tab4= st.tabs(["Home", "Sentiment Analysis"])
 - In Tab1 of the Streamlit web application,users provide their username, which is then stored in the RDS server.
 - In Tab2, users input a sentence, and the sentiment of that sentence is displayed.
 
-- This project fetches data from GitHub, cleans and processes it using NLP techniques, trains a model to analyze sentiment, and finally deploys this model on AWS EC2 for practical use.
+This project fetches data from GitHub, cleans and processes it using NLP techniques, trains a model to analyze sentiment, and finally deploys this model on AWS EC2 for practical use.
 
 # Contact
 📧 Email: [gokulakkrizhna@gmail.com](mailto:gokulakkrizhna@gmail.com)
