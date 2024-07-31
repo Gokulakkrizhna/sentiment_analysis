@@ -83,7 +83,7 @@ mydb = mysql.connector.connect(
     port="please provide port number",
     )
 ```
--```lexicon_app``` is similar to ```app```, it follows the same procedure but the difference is instead of using trained ML model, it uses the VADER sentiment analysis tool which will calculate sentiment scores for the given sentence and classify the sentiment accordingly.
+- ```lexicon_app``` is similar to ```app```, it follows the same procedure but the difference is instead of using trained ML model, it uses the VADER sentiment analysis tool which will calculate sentiment scores for the given sentence and classify the sentiment accordingly.
 - ```aws_app``` manages the connection between an S3 bucket and an EC2 instance, facilitating the download of files from S3 to EC2 for execution.**Note: Replace your bucket name,id,access key in ```s3_bucket,aws_access_key_id,aws_secret_access_key```**
 ```bash
   s3_bucket = 'please provide bucket name'
